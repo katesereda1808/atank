@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <header class="header">
       <div class="header__logo">
         <img src="./assets/icons/atank-logo.svg" alt="" />
@@ -41,7 +43,10 @@
           Оставить заявку
         </button>
         <details class="contact__lang">
-          <summary class="lang_value">rus</summary>
+          <summary class="lang_value">
+            <p class="chosen_lang">rus</p>
+            <div class="lang_chevron"></div>
+          </summary>
           <div class="lang_options">
             <ul>
               <li>rus</li>
@@ -50,73 +55,112 @@
           </div>
         </details>
       </div>
-      <button class="mobile burger_menu">
-      </button>
+      <button class="tablet mobile burger_menu"></button>
     </header>
     <main>
-        <nav class="page_nav desktop">
-            <ul>
-                <li class="page_nav__item">
-                    <a href="">Главная</a>
-                </li>
-                <li class="nav__chevron">
-                    <img src="./assets/icons/chevron.svg" alt="" srcset="">
-                </li>
-                <li class="page_nav__item">
-                    <a href="">Карьера</a>
-                </li>
+      <div class="mobile_menu tablet mobile hide">
+        <header class="mobile_menu__header">
+          <div class="header__logo">
+            <img src="./assets/icons/atank-logo-white.svg" alt="" />
+          </div>
+          <button class="mobile_menu__close_btn">
+            <img src="./assets/icons/cross-white.svg" alt="" srcset="" />
+          </button>
+        </header>
+        <div class="mobile_menu__content">
+          <nav>
+            <ul class="mobile_menu__navigation">
+              <li>
+                <a href=""> Услуги </a>
+              </li>
+              <li>
+                <a href=""> Проекты </a>
+              </li>
+              <li>
+                <a href=""> Школа </a>
+              </li>
+              <li>
+                <a href=""> Карьера </a>
+              </li>
             </ul>
-        </nav>
-        <div class="container">
-            <section class="circle_heading__container career">
-                <div class="glass_bg circle circle_heading__circle">
-                    <h1 class="section_title">
-                        Вакансии
-                        в Atank
-                    </h1>
-                    <p class="circle_heading__description">
-                        Хотите работать у нас? Тогда присылайте резюме <br>и сопроводительное письмо на почту!
-                    </p>
-                    <button class="button purple_btn">
-                        Заполнить форму
-                    </button>
-                </div>
-                <div class="decor career__decor_circle_1">
-                </div>
-                <div class="decor career__decor_elipse_1">
-                </div>
-                <div class="decor career__decor_elipse_2">
-                </div>
-                <div class="decor career__decor_circle_purple_blurred_1">
-                </div>
-            </section>
-            <section class="vacancies">
-                <div class="vacancy_item elipse_in_the_corner">
-                    <div class="decoration elipse_in_the_corner__decoration">
-                        <img src="./assets/icons/ellipse-light-purple.svg" alt="">
-                    </div>
-                    <h3 class="vacancy_item_title elipse_in_the_corner__title">
-                        SMM-специалист, стажёр
-                    </h3>
-                    <p class="vacancy_item_text elipse_in_the_corner__text">
-                        Вы будете настраивать аккаунт, вести его и делать детальную аналитику, работать с репутацией, общаться с клиентами.
-                    </p>
-                    <button class="button white_outlined_btn">Подробнее</button>
-                </div>
-                <div class="vacancy_item elipse_in_the_corner">
-                    <div class="decoration elipse_in_the_corner__decoration">
-                        <img src="./assets/icons/ellipse-light-purple.svg" alt="">
-                    </div>
-                    <h3 class="vacancy_item_title elipse_in_the_corner__title">
-                        Junior Full Stack разработчик
-                    </h3>
-                    <p class="vacancy_item_text elipse_in_the_corner__text">
-                        Вы будете вести поддержку сайтов, писать скрипты, верстать, вставлять модули.
-                    </p>
-                    <button class="button white_outlined_btn">Подробнее</button>
-                </div>
-            </section>
+          </nav>
+          <div class="mobile_menu__actions">
+            <details class="contact__lang">
+              <summary class="lang_value">
+                <p class="chosen_lang">rus</p>
+                <div class="lang_chevron"></div>
+              </summary>
+              <div class="lang_options">
+                <ul>
+                  <li>rus</li>
+                  <li>eng</li>
+                </ul>
+              </div>
+            </details>
+            <button class="button">Оставить заявку</button>
+            <a href="" class="contact_phone">
+              <img src="./assets/icons/phone-white.svg" alt="" />
+            </a>
+          </div>
         </div>
+      </div>
+      <nav class="page_nav desktop">
+        <ul>
+          <li class="page_nav__item">
+            <a href="">Главная</a>
+          </li>
+          <li class="nav__chevron">
+            <img src="./assets/icons/chevron.svg" alt="" srcset="" />
+          </li>
+          <li class="page_nav__item">
+            <a href="">Карьера</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="container">
+        <section class="circle_heading__container career">
+          <div class="glass_bg circle circle_heading__circle">
+            <h1 class="section_title">Вакансии в Atank</h1>
+            <p class="circle_heading__description">
+              Хотите работать у нас? Тогда присылайте резюме <br />и
+              сопроводительное письмо на почту!
+            </p>
+            <button class="button purple_btn">Заполнить форму</button>
+          </div>
+          <div class="decor career__decor_circle_1"></div>
+          <div class="decor career__decor_elipse_1"></div>
+          <div class="decor career__decor_elipse_2"></div>
+          <div class="decor career__decor_circle_purple_blurred_1"></div>
+        </section>
+        <section class="vacancies">
+          <div class="vacancy_item elipse_in_the_corner">
+            <div class="decoration elipse_in_the_corner__decoration">
+              <img src="./assets/icons/ellipse-light-purple.svg" alt="" />
+            </div>
+            <h3 class="vacancy_item_title elipse_in_the_corner__title">
+              SMM-специалист, стажёр
+            </h3>
+            <p class="vacancy_item_text elipse_in_the_corner__text">
+              Вы будете настраивать аккаунт, вести его и делать детальную
+              аналитику, работать с репутацией, общаться с клиентами.
+            </p>
+            <button class="button white_outlined_btn">Подробнее</button>
+          </div>
+          <div class="vacancy_item elipse_in_the_corner">
+            <div class="decoration elipse_in_the_corner__decoration">
+              <img src="./assets/icons/ellipse-light-purple.svg" alt="" />
+            </div>
+            <h3 class="vacancy_item_title elipse_in_the_corner__title">
+              Junior Full Stack разработчик
+            </h3>
+            <p class="vacancy_item_text elipse_in_the_corner__text">
+              Вы будете вести поддержку сайтов, писать скрипты, верстать,
+              вставлять модули.
+            </p>
+            <button class="button white_outlined_btn">Подробнее</button>
+          </div>
+        </section>
+      </div>
     </main>
     <footer class="footer">
       <div class="decor footer__decor_elipse_1"></div>
@@ -188,14 +232,13 @@
           <button class="button white_outlined_btn">Заказать звонок</button>
         </div>
         <div class="footer__privacy">
-            <p>
-                Atank © 2010 – 2021, digital-агентство ATANK - Политика
-                конфиденциальности
-            </p>
+          <p>
+            Atank © 2010 – 2021, digital-агентство ATANK - Политика
+            конфиденциальности
+          </p>
         </div>
       </div>
     </footer>
     <script src="./script.js"></script>
-</body>
-
+  </body>
 </html>

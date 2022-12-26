@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <header class="header">
       <div class="header__logo">
         <img src="./assets/icons/atank-logo.svg" alt="" />
@@ -41,7 +43,10 @@
           Оставить заявку
         </button>
         <details class="contact__lang">
-          <summary class="lang_value">rus</summary>
+          <summary class="lang_value">
+            <p class="chosen_lang">rus</p>
+            <div class="lang_chevron"></div>
+          </summary>
           <div class="lang_options">
             <ul>
               <li>rus</li>
@@ -50,271 +55,209 @@
           </div>
         </details>
       </div>
-      <button class="mobile burger_menu">
-      </button>
+      <button class="tablet mobile burger_menu"></button>
     </header>
     <main>
-        <div class="container">
-            <section class="circle_heading__container services">
-                <div class="glass_bg circle circle_heading__circle">
-                    <h1 class="section_title">
-                        Продвижение<br>
-                        бизнеса в сети
-                    </h1>
-                    <p class="circle_heading__description">
-                        Очень важно, чтобы во время поиска, именно ваш сайт находили первым
-                    </p>
-                    <button class="button purple_btn">
-                        Как это работает?
-                    </button>
-                </div>
-                <div class="decor services__decor_circle_1">
-                </div>
-                <div class="decor services__decor_elipse_1">
-                </div>
-                <div class="decor services__decor_elipse_2">
-                </div>
-                <div class="decor services__decor_circle_purple_blurred_1">
-                </div>
-            </section>
-
-            <section class="work_stages">
-                <h2 class="section_title">
-                    Как мы работаем?
-                </h2>
-                <div class="work_stages__items">
-                    <div class="work_stages__item item_1">
-                        <div class="item_number">
-                            <img src="./assets/icons/1.svg" alt="">
-                        </div>
-                        <p>Учитываем все ваши пожелания и предлагаем сразу несколько вариантов</p>
-                    </div>
-                    <div class="work_stages__item item_2">
-                        <div class="item_number">
-                            <img src="./assets/icons/2.svg" alt="">
-                        </div>
-                        <p>Мы выведем ваш бизнес на более высокий уровень</p>
-                    </div>
-                    <div class="work_stages__item item_3">
-                        <div class="item_number">
-                            <img src="./assets/icons/3.svg" alt="">
-                        </div>
-                        <p>Для наших клиентов у нас есть выгодные акции и скидки</p>
-                    </div>
-
-                </div>
-
-            </section>
-            <section class="tariff_basic">
-                <div class="tariff_basic__items">
-                    <div class="tariff_basic__description">
-                        <h2 class="section_title">
-                            Базовый тариф
-                        </h2>
-                        <p>
-                            Идеально, чтобы попробовать маркетинг на вкус, сформировать план действий и понять, что
-                            подходит именно вам.
-                        </p>
-                        <button class="button purple_btn tablet">
-                            Попробовать
-                        </button>
-                    </div>
-                    <div class="tariff_basic__item glass_bg circle tariff_basic__item_1">
-                        <p>Консультации по развитию</p>
-                    </div>
-                    <div class="tariff_basic__item glass_bg circle tariff_basic__item_2">
-                        <p>Мониторинг безопасности</p>
-                    </div>
-                    <div class="tariff_basic__item glass_bg circle tariff_basic__item_3">
-                        <p>SEO оптимизация</p>
-                    </div>
-                    <div class="tariff_basic__item glass_bg circle tariff_basic__item_4">
-                        <p>от 30 000 ₽</p>
-                    </div>
-                    <div class="tariff_basic__item glass_bg circle tariff_basic__item_5">
-                        <p>Консультации по развитию</p>
-                    </div>
-                    <button class="button purple_btn mobile">
-                            Попробовать
-                    </button>
-                </div>
-            </section>
-            <section class="marketing">
-                <div class="section__heading">
-                    <h2 class="section_title">
-                        Больше маркетинга!
-                    </h2>
-                    <p>Эти и многие другие услуги не входят в базовый тариф.</p>
-                </div>
-                <div class="marketing__items circles_row">
-                    <div class="marketing__item circles_row__circle_1 circle glass_bg">
-                        <p>SMM</p>
-                        <div class="marketing__item_description">
-                            <ul>
-                                <li>
-                                    Создание контента
-                                </li>
-                                <li>
-                                    Оптимизация стратегии продвижения
-                                </li>
-                                <li>
-                                    Выстраивание партнёрства
-                                </li>
-                                <li>
-                                    Дизайн и оформление аккаунта в соцсети
-                                </li>
-                                <li>
-                                    Мониторинг конкурентов
-                                </li>
-                            </ul>
-                        </div>
-
-                    </div>
-                    <div class="marketing__item circles_row__circle_2 circle glass_bg">
-                        <p>Маркетинг</p>
-                        <div class="marketing__item_description">
-                        <ul>
-                            <li>
-                                Управление рекламой Яндекс и Google
-                            </li>
-                            <li>
-                                Мониторинг конкурентов
-                            </li>
-                            <li>
-                                Стратегия развития бренда
-                            </li>
-                        </ul>
-
-                    </div>
-                    </div>
-                    <div class="marketing__item circles_row__circle_3 circle glass_bg">
-                        <p>Техническое сопровождение</p>
-                        <div class="marketing__item_description">
-                        <ul>
-                            <li>
-                                Дизайн
-                            </li>
-                            <li>
-                                Программирование
-                            </li>
-                            <li>
-                                Контент
-                            </li>
-                            <li>
-                                Тестирование и аудит
-                            </li>
-                            <li>
-                                Семантическое ядро (рерайт запросов и отслеживание позиций)
-                            </li>
-                        </ul>
-                    </div>
-                    </div>
-                    <div class="marketing__item circles_row__circle_4 circle glass_bg">
-                        <p>Дополнительные услуги</p>
-                        <div class="marketing__item_description">
-                        <ul>
-                            <li>
-                                Стратегическое планирование
-
-                            </li>
-                            <li>
-                                А/В тестирование
-                            </li>
-                            <li>
-                                Email маркетинг
-                            </li>
-                            <li>
-                                PR услуги и коммерческие предложения
-                            </li>
-                            <li>
-                                Менеджмент маркетплейсов и автоматизации
-                            </li>
-                        </ul>
-                    </div>
-                    </div>
-                </div>
-                <div class="marketing__items_description">
-                    <!-- <div class="marketing__item_description">
-                        <ul>
-                            <li>
-                                Создание контента
-                            </li>
-                            <li>
-                                Оптимизация стратегии продвижения
-                            </li>
-                            <li>
-                                Выстраивание партнёрства
-                            </li>
-                            <li>
-                                Дизайн и оформление аккаунта в соцсети
-                            </li>
-                            <li>
-                                Мониторинг конкурентов
-                            </li>
-                        </ul>
-                    </div> -->
-                    <!-- <div class="marketing__item_description">
-                        <ul>
-                            <li>
-                                Управление рекламой Яндекс и Google
-                            </li>
-                            <li>
-                                Мониторинг конкурентов
-                            </li>
-                            <li>
-                                Стратегия развития бренда
-                            </li>
-                        </ul>
-
-                    </div>
-                    <div class="marketing__item_description">
-                        <ul>
-                            <li>
-                                Дизайн
-                            </li>
-                            <li>
-                                Программирование
-                            </li>
-                            <li>
-                                Контент
-                            </li>
-                            <li>
-                                Тестирование и аудит
-                            </li>
-                            <li>
-                                Семантическое ядро (рерайт запросов и отслеживание позиций)
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="marketing__item_description">
-                        <ul>
-                            <li>
-                                Стратегическое планирование
-
-                            </li>
-                            <li>
-                                А/В тестирование
-                            </li>
-                            <li>
-                                Email маркетинг
-                            </li>
-                            <li>
-                                PR услуги и коммерческие предложения
-                            </li>
-                            <li>
-                                Менеджмент маркетплейсов и автоматизации
-                            </li>
-                        </ul>
-                    </div> -->
-
-                </div>
-                <button class="button white_outlined_btn">
-                    Оставить заявку
-                </button>
-
-            </section>
-
+      <div class="mobile_menu tablet mobile hide">
+        <header class="mobile_menu__header">
+          <div class="header__logo">
+            <img src="./assets/icons/atank-logo-white.svg" alt="" />
+          </div>
+          <button class="mobile_menu__close_btn">
+            <img src="./assets/icons/cross-white.svg" alt="" srcset="" />
+          </button>
+        </header>
+        <div class="mobile_menu__content">
+          <nav>
+            <ul class="mobile_menu__navigation">
+              <li>
+                <a href=""> Услуги </a>
+              </li>
+              <li>
+                <a href=""> Проекты </a>
+              </li>
+              <li>
+                <a href=""> Школа </a>
+              </li>
+              <li>
+                <a href=""> Карьера </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="mobile_menu__actions">
+            <details class="contact__lang">
+              <summary class="lang_value">
+                <p class="chosen_lang">rus</p>
+                <div class="lang_chevron"></div>
+              </summary>
+              <div class="lang_options">
+                <ul>
+                  <li>rus</li>
+                  <li>eng</li>
+                </ul>
+              </div>
+            </details>
+            <button class="button">Оставить заявку</button>
+            <a href="" class="contact_phone">
+              <img src="./assets/icons/phone-white.svg" alt="" />
+            </a>
+          </div>
         </div>
+      </div>
+      <nav class="page_nav desktop">
+        <ul>
+          <li class="page_nav__item">
+            <a href="">Главная</a>
+          </li>
+          <li class="nav__chevron">
+            <img src="./assets/icons/chevron.svg" alt="" srcset="" />
+          </li>
+          <li class="page_nav__item">
+            <a href="">Услуги</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="container">
+        <section class="circle_heading__container services">
+          <div class="glass_bg circle circle_heading__circle">
+            <h1 class="section_title">
+              Продвижение<br />
+              бизнеса в сети
+            </h1>
+            <p class="circle_heading__description">
+              Очень важно, чтобы во время поиска, именно ваш сайт находили
+              первым
+            </p>
+            <button class="button purple_btn">Как это работает?</button>
+          </div>
+          <div class="decor services__decor_circle_1"></div>
+          <div class="decor services__decor_elipse_1"></div>
+          <div class="decor services__decor_elipse_2"></div>
+          <div class="decor services__decor_circle_purple_blurred_1"></div>
+        </section>
+
+        <section class="work_stages">
+          <h2 class="section_title">Как мы работаем?</h2>
+          <div class="work_stages__items">
+            <div class="work_stages__item item_1">
+              <div class="item_number">
+                <img src="./assets/icons/1.svg" alt="" />
+              </div>
+              <p>
+                Учитываем все ваши пожелания и предлагаем сразу несколько
+                вариантов
+              </p>
+            </div>
+            <div class="work_stages__item item_2">
+              <div class="item_number">
+                <img src="./assets/icons/2.svg" alt="" />
+              </div>
+              <p>Мы выведем ваш бизнес на более высокий уровень</p>
+            </div>
+            <div class="work_stages__item item_3">
+              <div class="item_number">
+                <img src="./assets/icons/3.svg" alt="" />
+              </div>
+              <p>Для наших клиентов у нас есть выгодные акции и скидки</p>
+            </div>
+          </div>
+        </section>
+        <section class="tariff_basic">
+          <div class="tariff_basic__items">
+            <div class="tariff_basic__description">
+              <h2 class="section_title">Базовый тариф</h2>
+              <p>
+                Идеально, чтобы попробовать маркетинг на вкус, сформировать план
+                действий и понять, что подходит именно вам.
+              </p>
+              <button class="button purple_btn tablet">Попробовать</button>
+            </div>
+            <div
+              class="tariff_basic__item glass_bg circle tariff_basic__item_1"
+            >
+              <p>Консультации по развитию</p>
+            </div>
+            <div
+              class="tariff_basic__item glass_bg circle tariff_basic__item_2"
+            >
+              <p>Мониторинг безопасности</p>
+            </div>
+            <div
+              class="tariff_basic__item glass_bg circle tariff_basic__item_3"
+            >
+              <p>SEO оптимизация</p>
+            </div>
+            <div
+              class="tariff_basic__item glass_bg circle tariff_basic__item_4"
+            >
+              <p>от 30 000 ₽</p>
+            </div>
+            <div
+              class="tariff_basic__item glass_bg circle tariff_basic__item_5"
+            >
+              <p>Консультации по развитию</p>
+            </div>
+            <button class="button purple_btn mobile">Попробовать</button>
+          </div>
+        </section>
+        <section class="marketing">
+          <div class="section__heading">
+            <h2 class="section_title">Больше маркетинга!</h2>
+            <p>Эти и многие другие услуги не входят в базовый тариф.</p>
+          </div>
+          <div class="marketing__items circles_row">
+            <div class="marketing__item circles_row__circle_1 circle glass_bg">
+              <p>SMM</p>
+              <div class="marketing__item_description">
+                <ul>
+                  <li>Создание контента</li>
+                  <li>Оптимизация стратегии продвижения</li>
+                  <li>Выстраивание партнёрства</li>
+                  <li>Дизайн и оформление аккаунта в соцсети</li>
+                  <li>Мониторинг конкурентов</li>
+                </ul>
+              </div>
+            </div>
+            <div class="marketing__item circles_row__circle_2 circle glass_bg">
+              <p>Маркетинг</p>
+              <div class="marketing__item_description">
+                <ul>
+                  <li>Управление рекламой Яндекс и Google</li>
+                  <li>Мониторинг конкурентов</li>
+                  <li>Стратегия развития бренда</li>
+                </ul>
+              </div>
+            </div>
+            <div class="marketing__item circles_row__circle_3 circle glass_bg">
+              <p>Техническое сопровождение</p>
+              <div class="marketing__item_description">
+                <ul>
+                  <li>Дизайн</li>
+                  <li>Программирование</li>
+                  <li>Контент</li>
+                  <li>Тестирование и аудит</li>
+                  <li>
+                    Семантическое ядро (рерайт запросов и отслеживание позиций)
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="marketing__item circles_row__circle_4 circle glass_bg">
+              <p>Дополнительные услуги</p>
+              <div class="marketing__item_description">
+                <ul>
+                  <li>Стратегическое планирование</li>
+                  <li>А/В тестирование</li>
+                  <li>Email маркетинг</li>
+                  <li>PR услуги и коммерческие предложения</li>
+                  <li>Менеджмент маркетплейсов и автоматизации</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <button class="button white_outlined_btn">Оставить заявку</button>
+        </section>
+      </div>
     </main>
     <footer class="footer">
       <div class="decor footer__decor_elipse_1"></div>
@@ -386,14 +329,13 @@
           <button class="button white_outlined_btn">Заказать звонок</button>
         </div>
         <div class="footer__privacy">
-            <p>
-                Atank © 2010 – 2021, digital-агентство ATANK - Политика
-                конфиденциальности
-            </p>
+          <p>
+            Atank © 2010 – 2021, digital-агентство ATANK - Политика
+            конфиденциальности
+          </p>
         </div>
       </div>
     </footer>
     <script src="./script.js"></script>
-</body>
-
+  </body>
 </html>

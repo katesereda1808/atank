@@ -41,7 +41,7 @@
           Оставить заявку
         </button>
         <details class="contact__lang">
-          <summary class="lang_value">rus</summary>
+          <summary class="lang_value"><p class="chosen_lang">rus</p> <div class="lang_chevron"></div></summary>
           <div class="lang_options">
             <ul>
               <li>rus</li>
@@ -50,10 +50,76 @@
           </div>
         </details>
       </div>
-      <button class="mobile burger_menu">
+      <button class="tablet mobile burger_menu">
       </button>
     </header>
     <main>
+        <div class="mobile_menu tablet mobile hide">
+            <header class="mobile_menu__header">
+                <div class="header__logo">
+                    <img src="./assets/icons/atank-logo-white.svg" alt="" />
+                </div>
+                <button class="mobile_menu__close_btn">
+                    <img src="./assets/icons/cross-white.svg" alt="" srcset="">
+                </button>
+            </header>
+            <div class="mobile_menu__content">
+                <nav>
+                    <ul class="mobile_menu__navigation">
+                        <li>
+                            <a href="">
+                                Услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Проекты
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Школа
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Карьера
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="mobile_menu__actions">
+                    <details class="contact__lang">
+                        <summary class="lang_value"><p class="chosen_lang">rus</p> <div class="lang_chevron"></div></summary>
+                        <div class="lang_options">
+                            <ul>
+                            <li>rus</li>
+                            <li>eng</li>
+                            </ul>
+                        </div>
+                    </details>
+                    <button class="button">
+                        Оставить заявку
+                    </button>
+                    <a href="" class="contact_phone">
+                        <img src="./assets/icons/phone-white.svg" alt="" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <nav class="page_nav desktop">
+            <ul>
+                <li class="page_nav__item">
+                    <a href="">Главная</a>
+                </li>
+                <li class="nav__chevron">
+                    <img src="./assets/icons/chevron.svg" alt="" srcset="">
+                </li>
+                <li class="page_nav__item">
+                    <a href="">Карьера</a>
+                </li>
+            </ul>
+        </nav>
         <div class="container">
             <section class="circle_heading__container vacancy">
                 <div class="glass_bg circle circle_heading__circle">

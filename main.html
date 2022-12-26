@@ -39,7 +39,7 @@
           Оставить заявку
         </button>
         <details class="contact__lang">
-          <summary class="lang_value">rus</summary>
+          <summary class="lang_value"><p class="chosen_lang">rus</p> <div class="lang_chevron"></div></summary>
           <div class="lang_options">
             <ul>
               <li>rus</li>
@@ -52,6 +52,59 @@
       </button>
     </header>
     <main>
+      <div class="mobile_menu tablet mobile hide">
+            <header class="mobile_menu__header">
+                <div class="header__logo">
+                    <img src="./assets/icons/atank-logo-white.svg" alt="" />
+                </div>
+                <button class="mobile_menu__close_btn">
+                    <img src="./assets/icons/cross-white.svg" alt="" srcset="">
+                </button>
+            </header>
+            <div class="mobile_menu__content">
+                <nav>
+                    <ul class="mobile_menu__navigation">
+                        <li>
+                            <a href="">
+                                Услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Проекты
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Школа
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Карьера
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="mobile_menu__actions">
+                    <details class="contact__lang">
+                        <summary class="lang_value"><p class="chosen_lang">rus</p> <div class="lang_chevron"></div></summary>
+                        <div class="lang_options">
+                            <ul>
+                            <li>rus</li>
+                            <li>eng</li>
+                            </ul>
+                        </div>
+                    </details>
+                    <button class="button">
+                        Оставить заявку
+                    </button>
+                    <a href="" class="contact_phone">
+                        <img src="./assets/icons/phone-white.svg" alt="" />
+                    </a>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <section class="main_slider">
                 <div class="slider">
@@ -130,9 +183,6 @@
                 <a href="" class="button purple_btn services__btn">
                     Все услуги
                 </a>
-                <div class="decor main_services__decor_circle_1">
-                </div>
-                <div class="decor main_services__decor_elipse_1">
                 </div>
             </section>
             <section class="why_us">
@@ -196,7 +246,8 @@
                     <input type="text" placeholder="Почта">
                     <textarea name="" id="" cols="30" rows="1" placeholder="Комментарий"></textarea>
                     <label class="attach_file">
-                        <input type="file" name="" id="">
+                        <input class="attach_file__default_icon" type="file" name="" id="">
+                        <span class="attach_file__custom_icon"></span>
                         Прикрепить файл
                     </label>
                     <button type="submit" class="button purple_btn">
@@ -211,10 +262,6 @@
                 </form>
             </section>
         </div>
-        <!-- <img src="./assets/icons/elipse-purple.svg" alt="">
-        <img src="./assets/icons/circle-purple.svg" alt="">
-        <img src="./assets/icons/elipse-purple-blurred.svg" alt="">
-        <img src="./assets/icons/circle-purple-blurred.svg" alt=""> -->
 
     </main>
     <footer class="footer">

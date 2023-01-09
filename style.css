@@ -1321,11 +1321,14 @@ footer {
 }
 
 .search_bar input {
-    border: none;
+    border: 1px solid #303293;
     background-color: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .loupe {
+    background-color: transparent;
     height: 24px;
     margin-top: auto;
     margin-bottom: auto;
@@ -1401,6 +1404,7 @@ footer {
 
 .blogpost__cover img {
     width: 100%;
+    height: auto;
 }
 
 .blogpost_container {
@@ -1531,7 +1535,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 24px;
+    /* gap: 24px; */
+    gap: 40px;
 }
 
 .contact__lang {
@@ -1719,8 +1724,6 @@ details>summary {
         font-size: 14px;
         font-weight: 500;
     }
-
-    .circle_heading__circle {}
 
     .circle_heading__container {
         overflow: hidden;
@@ -2390,7 +2393,7 @@ details>summary {
         overflow: hidden;
         position: relative;
         height: 136vw;
-        min-height: 510px;
+        /* min-height: 510px; */
     }
 
     .project__preview_img {
@@ -2450,6 +2453,9 @@ details>summary {
         width: 100%;
         padding-top: 7px;
         padding-left: 10px;
+    }
+    .blog_posts__item.elipse_in_the_corner {
+        padding: 0;
     }
 
     .vacancy_description__item .elipse_in_the_corner__title {
